@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Sarcolenta';
+  src: url(./Sarcolenta.ttf);
+}
+
+
+html {
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  font-size: 62, 5%;
+}
+
+/*Header*/
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 18px
+}
+
+/*Menú navegación*/
+nav ul {
+  background-color: black;
+  list-style: none;
+  margin: 0;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+h2 {
+  text-align: center;
+}
+
+/*Foto principal*/
+.platillo {
+  width: 60%;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  margin: 2rem;
+  position: relative;
+}
+
+/*Información de la página*/
+.informacion {
+  padding: 10px;
+  margin: 0 10px;
+  background-color: #ffffff;
+}
+
+
+.cuerpo {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.cuerpo img {
+  border-radius: 1rem;
+}
+
+.cuerpo p {
+  margin: 1rem;
+}
+
+.cosas {
+  background-color: rgb(161, 228, 60);
+  color: white;
+  margin: auto;
+  padding: 6rem 2rem 2rem 2rem;
+  text-align: center;
+}
+
+.pie {
+  background-color: #7eff5a;
+  padding: 18px;
+  text-align: center;
+  color: #000000;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+/*Formularios*/
+fieldset{
+  display: grid;
+  flex-direction: 30% 70%;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: rgb(124, 128, 128);
+  width: 100%;
+}
+
+.ultimo{
+  width: 80%;
+}
+
+.boton {
+  background: rgb(83, 87, 87);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 10%;
+}
+
+/*Footer*/
+footer {
+  padding: 18px;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgb(30, 28, 28);
+}
+
+/*Main*/
+main div {
+  height: 0, 5rem;
+}
